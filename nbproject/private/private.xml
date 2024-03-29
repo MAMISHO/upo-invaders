@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/mamisho/desarrollo/universidad/segundo/IS2/Patrones/src/patrones/factory/PokemonAgua.java</file>
+            <file>file:/Users/mamisho/desarrollo/universidad/segundo/IS2/Patrones/src/game/objetos/NaveDimension.java</file>
+            <file>file:/Users/mamisho/desarrollo/universidad/segundo/IS2/Patrones/src/patrones/Patrones.java</file>
+            <file>file:/Users/mamisho/desarrollo/universidad/segundo/IS2/Patrones/src/patrones/Main.java</file>
+            <file>file:/Users/mamisho/desarrollo/universidad/segundo/IS2/Patrones/src/game/objetos/Nave.java</file>
+            <file>file:/Users/mamisho/desarrollo/universidad/segundo/IS2/Patrones/src/patrones/factory/PokemonRoca.java</file>
+            <file>file:/Users/mamisho/desarrollo/universidad/segundo/IS2/Patrones/src/patrones/factory/PokemonFuego.java</file>
+            <file>file:/Users/mamisho/desarrollo/universidad/segundo/IS2/Patrones/src/patrones/factory/Pokemon.java</file>
+            <file>file:/Users/mamisho/desarrollo/universidad/segundo/IS2/Patrones/src/patrones/factory/PokemonFactory.java</file>
+            <file>file:/Users/mamisho/desarrollo/universidad/segundo/IS2/Patrones/src/patrones/factory/IPokemon.java</file>
+            <file>file:/Users/mamisho/desarrollo/universidad/segundo/IS2/Patrones/src/patrones/factory/PokemonAve.java</file>
+            <file>file:/Users/mamisho/desarrollo/universidad/segundo/IS2/Patrones/src/patrones/factory/PokemonHierva.java</file>
+            <file>file:/Users/mamisho/desarrollo/universidad/segundo/IS2/Patrones/src/patrones/factory/PokemonType.java</file>
+        </group>
+    </open-files>
+</project-private>
