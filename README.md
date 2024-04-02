@@ -1,2 +1,2 @@
 # upo-invaders
- Juego insperado en space invaders para enseñar patrones de diseño
+ Juego inspirado en space invaders para enseñar patrones de diseño
