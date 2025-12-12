@@ -1,17 +1,16 @@
-# upo-invaders
+# UPO Space Invaders - Proyecto de Patrones de Diseño
 
-Juego inspirado en space invaders para enseñar patrones de diseño.
+## Descripción
+Juego educativo de Space Invaders implementado en Java para enseñar patrones de diseño.
 
 ## Patrones de Diseño Implementados
 
 ### 1. Factory Pattern
-
 - **Clase**: `NaveFactory`
 - **Propósito**: Creación de naves de forma centralizada y aleatoria
 - **Ubicación**: `src/game/NaveFactory.java`
 
 ### 2. Interface Pattern
-
 - **Interface**: `INaveBase`
 - **Propósito**: Define el contrato para todas las naves
 - **Ubicación**: `src/game/objetos/INaveBase.java`
@@ -43,33 +42,32 @@ src/
 ## Configuración en VS Code
 
 ### 1. Instalar Extensiones
-
 Instala el pack de extensiones de Java:
-
 - Abre VS Code
 - Ve a Extensions (⌘+Shift+X en Mac)
 - Busca "Extension Pack for Java"
 - Instala el pack completo
 
 ### 2. Abrir el Proyecto
-
 ```bash
 cd /Users/mamisho/dev/upo/upo-invaders
 code .
 ```
 
-## Scripts Bash para Compilación y Ejecución
-
-### 1. Compilar
-
+### 3. Compilar
+VS Code compilará automáticamente. También puedes usar:
 ```bash
-./compile.sh
+javac -d build/classes -sourcepath src src/patrones/Main.java
 ```
 
-### 2. Ejecutar
+### 4. Ejecutar
+Opción 1 - Desde VS Code:
+- Presiona F5 o usa "Run > Start Debugging"
+- O haz clic derecho en `Main.java` y selecciona "Run Java"
 
+Opción 2 - Desde terminal:
 ```bash
-./run.sh
+java -cp build/classes patrones.Main
 ```
 
 ## Cómo Funciona
@@ -93,28 +91,23 @@ code .
 ## Mejoras Pendientes
 
 1. ✅ Configuración para VS Code
-2. ✅ Scripts bash para compilación y ejecución
-3. ⏳ Arreglar bucle infinito del juego
-4. ⏳ Implementar game loop adecuado
-5. ⏳ Añadir controles del jugador
-6. ⏳ Implementar sistema de colisiones
-7. ⏳ Añadir proyectiles
+2. ⏳ Arreglar bucle infinito del juego
+3. ⏳ Implementar game loop adecuado
+4. ⏳ Añadir controles del jugador
+5. ⏳ Implementar sistema de colisiones
+6. ⏳ Añadir proyectiles
 
 ## Notas de Desarrollo
 
 ### Problemas Conocidos
-
 - El bucle while(true) en Main.java bloquea el hilo de eventos de Swing
 - Necesita implementación de un game loop con Timer
 
 ### Solución Propuesta
-
 Usar `javax.swing.Timer` para crear un game loop no bloqueante que actualice el juego a intervalos regulares.
 
 ## Autor
-
-Made with ❤️ by mamisho
+@mamisho
 
 ## Licencia
-
 Ver archivo LICENSE

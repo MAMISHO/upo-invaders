@@ -35,8 +35,8 @@ public class NaveFactory {
         colores.add(Color.CYAN);
         colores.add(Color.GREEN);
         colores.add(Color.ORANGE);
-        colores.add(Color.MAGENTA);
         colores.add(Color.GRAY);
+        colores.add(Color.MAGENTA);
     }
 
     public  Nave crearNaveAleatoria(List<Nave> navesExistentes) {
@@ -47,8 +47,9 @@ public class NaveFactory {
             dimension = new NaveDimension(posX, 0, this.maxWith, maxHeight); // Y siempre en 0
         // } while (colisionaConNavesExistentes(dimension, navesExistentes));
         if(!colisionaConNavesExistentes(dimension, navesExistentes)) {
-            g.setColor(colores.poll());
-            Nave n = new Nave(dimension, g);
+            Graphics g2d = (Graphics) g.create();
+            g2d.setColor(colores.poll());
+            Nave n = new Nave(dimension, g2d);
             // n.setGraphics(g);
             return n;
         }
